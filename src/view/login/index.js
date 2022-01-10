@@ -5,7 +5,7 @@ function Login(){
         <div className="login-content d-flex align-items-center">
         <form className="form-signin mx-auto">
         <div className="text-center">
-            <img className="mb-4" src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57" />
+            
             <h1 className="h3 mb-3 font-weight-normal">Login</h1> 
         </div>
         
