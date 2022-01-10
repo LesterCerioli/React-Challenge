@@ -1,4 +1,5 @@
 import React from 'react';
+import './login.css';
 
 function Login(){
     return(
@@ -6,23 +7,23 @@ function Login(){
         <form className="form-signin mx-auto">
         <div className="text-center">
             
-            <h1 className="h3 mb-3 font-weight-normal">Login</h1> 
+            <h1 className="h3 mb-3 font-weight-normal text-white font-weight-bold ">Login</h1> 
         </div>
         
-
-        <div className="form-label-group">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
-            
-        </div>
-    
-        <div className="form-label-group">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
-            
-        </div>
-
+           
         
-        <button className="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-        <p class="mt-5 mb-3 text-muted">&copy; 2021–Lucas Technology Services</p>
+        <input type="email" class="form-control my-2" id="floatingInput" placeholder="name@example.com" />
+        <input type="password" id="inputPassword" class="form-control my-2"  placeholder="Password" />
+           
+        <di className="msg-login text-white text-center my-5">
+            <span><strong>WoW</strong>You're connected!!</span>    
+        </di>        
+        <button className="w-100 btn btn-lg btn-block btn-login" type="submit">Sign in</button>
+        <div className="login-options mt-5">
+            <a href="#" className="mx-2">Forgot Password</a>
+            <span className="text-white">&#9733;</span>
+            <a href="#" className="mx-2">Sign Up</a>
+        </div>
         
         </form>
         </div>
